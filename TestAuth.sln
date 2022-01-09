@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeManagement", "RecipeManagement", "{93C460A3-D071-4106-8425-BCD2EB250740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8C67518-4B4A-40DC-94CC-839A2A4D6492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement", "RecipeManagement\src\RecipeManagement\RecipeManagement.csproj", "{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D36FAC47-6B81-42D7-A3A0-71BB95CB767F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement.IntegrationTests", "RecipeManagement\tests\RecipeManagement.IntegrationTests\RecipeManagement.IntegrationTests.csproj", "{880D8A12-A20A-4C38-B891-D140406C97DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement.FunctionalTests", "RecipeManagement\tests\RecipeManagement.FunctionalTests\RecipeManagement.FunctionalTests.csproj", "{FF2968B3-7C67-4E73-9196-6617CA6469F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement.SharedTestHelpers", "RecipeManagement\tests\RecipeManagement.SharedTestHelpers\RecipeManagement.SharedTestHelpers.csproj", "{D7000EAB-980C-41CB-B782-8E4B3C6570BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeManagement.UnitTests", "RecipeManagement\tests\RecipeManagement.UnitTests\RecipeManagement.UnitTests.csproj", "{2DFC56C8-79A3-428E-90BE-E7408F13EEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServerWithDomain", "AuthServerWithDomain\AuthServerWithDomain.csproj", "{E7555902-F8CC-47B3-96A8-9430E4480042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880D8A12-A20A-4C38-B891-D140406C97DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880D8A12-A20A-4C38-B891-D140406C97DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880D8A12-A20A-4C38-B891-D140406C97DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880D8A12-A20A-4C38-B891-D140406C97DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2968B3-7C67-4E73-9196-6617CA6469F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2968B3-7C67-4E73-9196-6617CA6469F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2968B3-7C67-4E73-9196-6617CA6469F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2968B3-7C67-4E73-9196-6617CA6469F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7000EAB-980C-41CB-B782-8E4B3C6570BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7000EAB-980C-41CB-B782-8E4B3C6570BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7000EAB-980C-41CB-B782-8E4B3C6570BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7000EAB-980C-41CB-B782-8E4B3C6570BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFC56C8-79A3-428E-90BE-E7408F13EEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFC56C8-79A3-428E-90BE-E7408F13EEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFC56C8-79A3-428E-90BE-E7408F13EEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFC56C8-79A3-428E-90BE-E7408F13EEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7555902-F8CC-47B3-96A8-9430E4480042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7555902-F8CC-47B3-96A8-9430E4480042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7555902-F8CC-47B3-96A8-9430E4480042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7555902-F8CC-47B3-96A8-9430E4480042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8C67518-4B4A-40DC-94CC-839A2A4D6492} = {93C460A3-D071-4106-8425-BCD2EB250740}
+		{27ED89EE-4EE8-45AB-A50D-BC9C3D807CBA} = {E8C67518-4B4A-40DC-94CC-839A2A4D6492}
+		{D36FAC47-6B81-42D7-A3A0-71BB95CB767F} = {93C460A3-D071-4106-8425-BCD2EB250740}
+		{880D8A12-A20A-4C38-B891-D140406C97DC} = {D36FAC47-6B81-42D7-A3A0-71BB95CB767F}
+		{FF2968B3-7C67-4E73-9196-6617CA6469F4} = {D36FAC47-6B81-42D7-A3A0-71BB95CB767F}
+		{D7000EAB-980C-41CB-B782-8E4B3C6570BE} = {D36FAC47-6B81-42D7-A3A0-71BB95CB767F}
+		{2DFC56C8-79A3-428E-90BE-E7408F13EEC5} = {D36FAC47-6B81-42D7-A3A0-71BB95CB767F}
+	EndGlobalSection
+EndGlobal
